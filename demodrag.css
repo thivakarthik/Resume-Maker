@@ -1,0 +1,29 @@
+@CHARSET "ISO-8859-1";
+.container{
+	background-image:"C:\Users\Dhiva\Downloads\tks mage.jpg";
+	padding-left:80px;
+	padding-right:80px;
+	padding-top:80px;
+	padding-bottom:80px;
+	margin-right:80px;
+	line-height: 1.2; 
+	
+}
+body{
+	
+	line-height: 1.2; 
+}
+.headings{
+	margin-left:50px;
+	margin-right:80px;
+	line-height: 1.2; 
+	float: left;
+	
+}
+#line{
+	margin-left:60px;
+}
+#header, #nav, .noprint
+{
+display: none;
+}

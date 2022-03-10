@@ -1,0 +1,53 @@
+@CHARSET "ISO-8859-1";
+body{
+	background-color:yellow;
+	font-family: "Open Sans", sans-serif;
+  line-height: 1.25;
+}
+.container{
+	margin:auto;
+	margin-top:200px;
+	background-color:#99fbfb;
+	
+	 width: 400px;
+  height: 200px;
+}
+.heading{
+	font-size:150%;
+	text-align:center;
+}
+
+a{
+	color:hotpink;
+}
+a:link{
+	text-decoration: none;
+}
+
+ 
+link{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+   
+ blink{
+   font-size: 5em;
+   font-family: serif;
+   color:#008000;
+   text-align: center;
+   animation: animate 1.5s linear infinite;
+ } 
+  
+ @keyframes animate{
+   0%{
+     opacity: 0;
+   }
+   50%{
+     opacity: 0.7;
+   }
+   100%{
+     opacity: 0;
+   }
+ }
